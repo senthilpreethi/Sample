@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "southindia"
+        },
+        "virtualMachineName": {
+            "value": "vro-vm-temp"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_A0"
+        },
+        "adminUsername": {
+            "value": "vroadmin"
+        },
+        "virtualNetworkName": {
+            "value": "vro-vn-plugin"
+        },
+        "networkInterfaceName": {
+            "value": "vro-vm-temp991"
+        },
+        "networkSecurityGroupName": {
+            "value": "vro-vm-temp-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "storageAccountName": {
+            "value": "vrorgplugindiag835"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "vrorgplugindiag835"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/vrorgplugindiag835"
+        },
+        "subnetName": {
+            "value": "vro-sub-plugin"
+        },
+        "publicIpAddressName": {
+            "value": "vro-vm-temp-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
